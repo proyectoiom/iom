@@ -1,7 +1,5 @@
 /* change the colors */
 
-
-
 p {
     font-family: 'Lato', sans-serif;
 }
@@ -11,7 +9,35 @@ h1 {
     font-weight: bold;
 }
 
+.display-4 {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+}
+
 a {
-    color: black;
+    color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #907cb4 !important;
+    border-color: #907cb4
+}
+
+.btn:hover {
+    background-color: #8370a7 !important;
+    border-color: #8370a7;
+}
+
+.active {
+    background-color: #907cb4 !important;
 }
